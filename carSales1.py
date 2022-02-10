@@ -121,7 +121,7 @@ def getSession():
                 # print(api_server)
                 # print(gt)
                 # print(challenge)
-                api_key = os.getenv('APIKEY_2CAPTCHA', 'fadd91d5b41f1fb83e4cace99f4190e8')
+                api_key = os.getenv('APIKEY_2CAPTCHA', 'API-KEY')
                 solver = TwoCaptcha(api_key)
                 print('%s Sending Captcha Challenge to 2CAPTCHA.COM'%(times()))
                 while True:
